@@ -9,6 +9,31 @@ Esta é uma aplicação web desenvolvida em **Python com Flask** que calcula o *
 
 A interface é **amigável e didática**, permitindo que mesmo pessoas leigas entendam os cálculos.
 
+## 🧮 Como funciona o cálculo
+
+- INSS (8%): desconto obrigatório para previdência social.
+- IR (Imposto de Renda):
+- Regra atual: isento até R$ 2.500
+- Proposta: isento até R$ 5.000 (em tramitação)
+- Benefício por dependentes: R$ 200 por dependente, reduzindo os descontos.
+- Salário líquido = Salário bruto - INSS - IR + benefício por dependentes.
+
+💡 Mensagem explicativa para usuários leigos disponível na interface.
+
+# Testa cálculos de salário líquido para várias situações:
+
+Salários abaixo e acima do IR vigente
+Simulação da proposta de isenção
+Entradas inválidas (negativos, não numéricos)
+
+📝 Observações
+
+A proposta de isenção de IR até R$ 5.000 ainda está em tramitação.
+
+Atualmente, quem ganha até R$ 2.500 não paga IR.
+
+A aplicação permite simular como seria o salário líquido caso a proposta seja aprovada.
+
 ---
 
 ## 📂 Estrutura do projeto
@@ -76,47 +101,6 @@ pytest tests/
 ```
 ---
 
-## 📄 Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🤝 Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
-
-
-## 🧮 Como funciona o cálculo
-
-- INSS (8%): desconto obrigatório para previdência social.
-- IR (Imposto de Renda):
-- Regra atual: isento até R$ 2.500
-- Proposta: isento até R$ 5.000 (em tramitação)
-- Benefício por dependentes: R$ 200 por dependente, reduzindo os descontos.
-- Salário líquido = Salário bruto - INSS - IR + benefício por dependentes.
-
-💡 Mensagem explicativa para usuários leigos disponível na interface.
-
-
-## 🧪 Testes
-
-Para rodar os testes unitários:
-```bash
-pytest
-````
-
-# Testa cálculos de salário líquido para várias situações:
-
-Salários abaixo e acima do IR vigente
-Simulação da proposta de isenção
-Entradas inválidas (negativos, não numéricos)
-
-📝 Observações
-
-A proposta de isenção de IR até R$ 5.000 ainda está em tramitação.
-
-Atualmente, quem ganha até R$ 2.500 não paga IR.
-
-A aplicação permite simular como seria o salário líquido caso a proposta seja aprovada.
-
-
 ## 👩‍💻 Desenvolvedora
 
 Lorena Mattos – projeto desenvolvido como atividade prática da disciplina Framework para Desenvolvimento de Software.
@@ -126,3 +110,9 @@ Lorena Mattos – projeto desenvolvido como atividade prática da disciplina Fra
 - Documentação Flask
 - Proposta de isenção IR até R$ 5.000 (em tramitação)
 - Bootstrap 5
+
+## 📄 Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🤝 Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
