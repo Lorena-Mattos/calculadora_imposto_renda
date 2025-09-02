@@ -20,7 +20,7 @@ A interface é **amigável e didática**, permitindo que mesmo pessoas leigas en
 
 💡 Mensagem explicativa para usuários leigos disponível na interface.
 
-# Testa cálculos de salário líquido para várias situações:
+## Testa cálculos de salário líquido para várias situações:
 
 Salários abaixo e acima do IR vigente
 Simulação da proposta de isenção
